@@ -2,7 +2,7 @@
 
 ### Status: Maintenance
 
-Compatibility is great, as the hardware closely resembles that of iMac 18,3. Onboard audio isn't configured, since I use a USB DAC. I don't have a wireless card attached, so AirDrop, Continuity, Handoff and other similar features are not working.
+Compatibility is great, as the hardware closely resembles that of iMac 18,3. Onboard audio isn't configured, since I use a USB DAC. Wi-Fi and bluetooth are supported natively, so AirDrop and Continuity work out of the box.
 
 Currently running:
 
@@ -21,7 +21,7 @@ Currently running:
 | Storage     | Kingston A2000 1TB                    |
 | GPU         | PowerColor Radeon RX 5700XT Red Devil |
 | Audio       | NuForce µDAC 2                        |
-| WLAN        | -                                     |
+| WLAN        | Fenvi FV-T919                         |
 
 ## Status
 
@@ -30,7 +30,9 @@ Currently running:
 - [x] Ethernet
 - [x] iCloud services - iMessage, FaceTime, AppStore
 - [x] GPU acceleration
-- [x] Bluetooth (via USB dongle)
+- [x] Bluetooth
+- [x] Wi-Fi
+- [x] AirDrop, Continuity
 - [x] Mac-like booting interface for multiboot
 - [x] Sleep/wake
 - [x] Native CPU power management

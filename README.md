@@ -9,7 +9,7 @@ Currently running:
 | Component      | Version |
 | -------------- | ------- |
 | macOS Catalina | 10.15.6 |
-| OpenCore       | 0.5.9   |
+| OpenCore       | 0.6.0   |
 
 ## Hardware info
 
@@ -47,12 +47,12 @@ Currently running:
 
 | Kext               | Version | Remark                 |
 | ------------------ | ------- | ---------------------- |
-| IntelMausiEthernet | 2.5.1d1 | Fixes ethernet         |
-| Lilu               | 1.4.5   |                        |
-| NVMEFix            | 1.0.3   | Fix for NVME SSDs      |
+| IntelMausi | 1.0.3 | Fixes ethernet         |
+| Lilu               | 1.4.7   |                        |
+| NVMEFix            | 1.0.4   | Fix for NVME SSDs      |
 | USBMap             | -       | Inject only mapped USB |
-| VirtualSMC         | 1.1.4   | SMC chip emulation     |
-| WhateverGreen      | 1.4.0   | Graphics               |
+| VirtualSMC         | 1.1.6   | SMC chip emulation     |
+| WhateverGreen      | 1.4.2   | Graphics               |
 
 ## ACPI patches
 

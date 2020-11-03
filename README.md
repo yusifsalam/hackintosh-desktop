@@ -6,10 +6,10 @@ Compatibility is great, as the hardware closely resembles that of iMac 18,3. Onb
 
 Currently running:
 
-| Component      | Version           |
-| -------------- | ----------------- |
-| macOS Catalina | 10.15.7 (19H2)    |
-| OpenCore       | 0.6.1             |
+| Component      | Version        |
+| -------------- | -------------- |
+| macOS Catalina | 10.15.7 (19H2) |
+| OpenCore       | 0.6.3          |
 
 ## Hardware info
 
@@ -48,11 +48,11 @@ Currently running:
 | Kext          | Version | Remark                 |
 | ------------- | ------- | ---------------------- |
 | IntelMausi    | 1.0.3   | Fixes ethernet         |
-| Lilu          | 1.4.8   | Patch engine           |
+| Lilu          | 1.4.9   | Patch engine           |
 | NVMEFix       | 1.0.4   | Fix for NVME SSDs      |
 | USBMap        | -       | Inject only mapped USB |
-| VirtualSMC    | 1.1.7   | SMC chip emulation     |
-| WhateverGreen | 1.4.3   | Graphics               |
+| VirtualSMC    | 1.1.8   | SMC chip emulation     |
+| WhateverGreen | 1.4.4   | Graphics               |
 
 ## ACPI patches
 

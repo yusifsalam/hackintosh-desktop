@@ -17,7 +17,7 @@ Currently running:
 | ----------- | ------------------------------------- |
 | Motherboard | ASUS MAXIMUS HERO VIII                |
 | CPU         | Intel i7-7700K Kaby Lake              |
-| Memory      | 16GB 3200Mhz                          |
+| Memory      | 32GB 3200Mhz                          |
 | Storage     | Kingston A2000 1TB                    |
 | GPU         | PowerColor Radeon RX 5700XT Red Devil |
 | Audio       | NuForce µDAC 2                        |

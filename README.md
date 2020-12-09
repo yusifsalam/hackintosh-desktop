@@ -48,11 +48,11 @@ Currently running:
 | Kext          | Version | Remark                 |
 | ------------- | ------- | ---------------------- |
 | IntelMausi    | 1.0.3   | Fixes ethernet         |
-| Lilu          | 1.4.9   | Patch engine           |
+| Lilu          | 1.5.0   | Patch engine           |
 | NVMEFix       | 1.0.4   | Fix for NVME SSDs      |
 | USBMap        | -       | Inject only mapped USB |
-| VirtualSMC    | 1.1.8   | SMC chip emulation     |
-| WhateverGreen | 1.4.4   | Graphics               |
+| VirtualSMC    | 1.1.9   | SMC chip emulation     |
+| WhateverGreen | 1.4.5   | Graphics               |
 
 ## ACPI patches
 

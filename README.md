@@ -6,10 +6,10 @@ Compatibility is great, as the hardware closely resembles that of iMac 18,3. Onb
 
 Currently running:
 
-| Component      | Version        |
-| -------------- | -------------- |
-| macOS Catalina | 10.15.7 (19H2) |
-| OpenCore       | 0.6.4          |
+| Component     | Version        |
+| ------------- | -------------- |
+| macOS version | 11.0.1 (20B29) |
+| OpenCore      | 0.6.4          |
 
 ## Hardware info
 
@@ -17,7 +17,7 @@ Currently running:
 | ----------- | ------------------------------------- |
 | Motherboard | ASUS MAXIMUS HERO VIII                |
 | CPU         | Intel i7-7700K Kaby Lake              |
-| Memory      | 16GB 3200Mhz                          |
+| Memory      | 32GB 3200Mhz                          |
 | Storage     | Kingston A2000 1TB                    |
 | GPU         | PowerColor Radeon RX 5700XT Red Devil |
 | Audio       | NuForce µDAC 2                        |

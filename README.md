@@ -60,3 +60,9 @@ Currently running:
 | ------------ | -------------------------- |
 | SSDT-EC-USBX | Embedded Controller Rename |
 | SSDT-PLUG    | x86 plugin injection fix   |
+
+## DRM
+
+To fix broken AppleTV+, run `defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes` in the terminal. This setting uses the AMD GPU hardware decoder.
+
+DRM does not work in Safari as of Big Sur, but works in Chromium-based browsers and browsers that use software-based DRM.

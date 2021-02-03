@@ -8,8 +8,8 @@ Currently running:
 
 | Component     | Version      |
 | ------------- | ------------ |
-| macOS version | 11.1 (20C69) |
-| OpenCore      | 0.6.5        |
+| macOS version | 11.2 (20D64) |
+| OpenCore      | 0.6.6        |
 
 ## Hardware info
 
@@ -48,11 +48,11 @@ Currently running:
 | Kext          | Version | Remark                 |
 | ------------- | ------- | ---------------------- |
 | IntelMausi    | 1.0.5   | Fixes ethernet         |
-| Lilu          | 1.5.0   | Patch engine           |
+| Lilu          | 1.5.1   | Patch engine           |
 | NVMEFix       | 1.0.5   | Fix for NVME SSDs      |
 | USBMap        | -       | Inject only mapped USB |
-| VirtualSMC    | 1.1.9   | SMC chip emulation     |
-| WhateverGreen | 1.4.6   | Graphics               |
+| VirtualSMC    | 1.2.0   | SMC chip emulation     |
+| WhateverGreen | 1.4.7   | Graphics               |
 
 ## ACPI patches
 

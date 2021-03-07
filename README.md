@@ -6,10 +6,10 @@ Compatibility is great, as the hardware closely resembles that of iMac 18,3. Onb
 
 Currently running:
 
-| Component     | Version      |
-| ------------- | ------------ |
+| Component     | Version        |
+| ------------- | -------------- |
 | macOS version | 11.2.2 (20D80) |
-| OpenCore      | 0.6.6        |
+| OpenCore      | 0.6.7          |
 
 ## Hardware info
 
@@ -51,8 +51,8 @@ Currently running:
 | Lilu          | 1.5.1   | Patch engine           |
 | NVMEFix       | 1.0.5   | Fix for NVME SSDs      |
 | USBMap        | -       | Inject only mapped USB |
-| VirtualSMC    | 1.2.0   | SMC chip emulation     |
-| WhateverGreen | 1.4.7   | Graphics               |
+| VirtualSMC    | 1.2.1   | SMC chip emulation     |
+| WhateverGreen | 1.4.8   | Graphics               |
 
 ## ACPI patches
 
@@ -66,3 +66,5 @@ Currently running:
 To fix broken AppleTV+, run `defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes` in the terminal. This setting enables the AMD GPU hardware decoder.
 
 DRM does not work in Safari as of Big Sur, but works in Chromium-based browsers and browsers that use software-based DRM, so Netflix will work in Chrome but not Safari.
+
+Note that the DRM fix will probably break your built-in screen recording, to fix you can run `defaults write com.apple.AppleGVA gvaForceAMDKE -boolean no` which disables the DRM fix.

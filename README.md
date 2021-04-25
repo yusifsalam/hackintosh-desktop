@@ -2,7 +2,9 @@
 
 ### Status: Maintenance
 
-Compatibility is great, as the hardware closely resembles that of iMac 18,3. Onboard audio isn't configured, since I use a USB DAC. Wi-Fi and bluetooth are supported natively, so AirDrop and Continuity work out of the box.
+Two config files are provided - one for system with a dedicated GPU and another one for iGPU only.
+
+Compatibility is great, as the hardware closely resembles that of iMac 18,1 or 18,3. Onboard audio isn't configured, since I use a USB DAC. Wi-Fi and bluetooth are supported natively, so AirDrop and Continuity work out of the box.
 
 Currently running:
 

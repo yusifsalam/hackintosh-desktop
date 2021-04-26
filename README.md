@@ -10,7 +10,7 @@ Currently running:
 
 | Component     | Version        |
 | ------------- | -------------- |
-| macOS version | 11.2.3 (20D91) |
+| macOS version | 11.3 (20E232)  |
 | OpenCore      | 0.6.8          |
 
 ## Hardware info

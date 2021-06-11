@@ -8,10 +8,10 @@ Compatibility is great, as the hardware closely resembles that of iMac 18,1 or 1
 
 Currently running:
 
-| Component     | Version         |
-| ------------- | --------------- |
-| macOS version | 11.4 (20F71)    |
-| OpenCore      | 0.6.9           |
+| Component     | Version      |
+| ------------- | ------------ |
+| macOS version | 11.4 (20F71) |
+| OpenCore      | 0.7.0        |
 
 ## Hardware info
 
@@ -52,10 +52,10 @@ Currently running:
 | ------------- | ------- | ---------------------- |
 | IntelMausi    | 1.0.6   | Fixes ethernet         |
 | Lilu          | 1.5.3   | Patch engine           |
-| NVMEFix       | 1.0.7   | Fix for NVME SSDs      |
+| NVMEFix       | 1.0.8   | Fix for NVME SSDs      |
 | USBMap        | -       | Inject only mapped USB |
-| VirtualSMC    | 1.2.3   | SMC chip emulation     |
-| WhateverGreen | 1.4.9   | Graphics               |
+| VirtualSMC    | 1.2.4   | SMC chip emulation     |
+| WhateverGreen | 1.5.0   | Graphics               |
 
 ## ACPI patches
 

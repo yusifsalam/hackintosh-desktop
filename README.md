@@ -2,15 +2,13 @@
 
 ### Status: Maintenance
 
-Two config files are provided - one for system with a dedicated GPU and another one for iGPU only.
-
 Compatibility is great, as the hardware closely resembles that of iMac 18,1 or 18,3. Onboard audio isn't configured, since I use a USB DAC. Wi-Fi and bluetooth are supported natively, so AirDrop and Continuity work out of the box.
 
 Currently running:
 
 | Component     | Version      |
 | ------------- | ------------ |
-| macOS version | 11.4 (20F71) |
+| macOS version | 12.0 Beta    |
 | OpenCore      | 0.7.0        |
 
 ## Hardware info
@@ -22,7 +20,6 @@ Currently running:
 | Memory      | 32GB 3200Mhz                          |
 | Storage     | Kingston A2000 1TB                    |
 | iGPU        | Intel HD 630                          |
-| GPU         | PowerColor Radeon RX 5700XT Red Devil |
 | Audio       | NuForce µDAC 2                        |
 | WLAN        | Fenvi FV-T919                         |
 
@@ -44,7 +41,6 @@ Currently running:
 
 - [ ] Sidecar
 - [ ] FileVault
-- [ ] Thunderbolt
 
 ## Kexts
 
@@ -63,11 +59,3 @@ Currently running:
 | ------------ | -------------------------- |
 | SSDT-EC-USBX | Embedded Controller Rename |
 | SSDT-PLUG    | x86 plugin injection fix   |
-
-## DRM
-
-To fix broken AppleTV+, run `defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes` in the terminal. This setting enables the AMD GPU hardware decoder.
-
-DRM does not work in Safari as of Big Sur, but works in Chromium-based browsers and browsers that use software-based DRM, so Netflix will work in Chrome but not Safari.
-
-Note that the DRM fix will probably break your built-in screen recording, to fix you can run `defaults write com.apple.AppleGVA gvaForceAMDKE -boolean no` which disables the DRM fix.

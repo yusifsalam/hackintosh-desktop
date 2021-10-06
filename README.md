@@ -9,7 +9,7 @@ Currently running:
 | Component     | Version     |
 | ------------- | ----------- |
 | macOS version | 12.0 Beta 8 |
-| OpenCore      | 0.7.0       |
+| OpenCore      | 0.7.4       |
 
 ## Hardware info
 

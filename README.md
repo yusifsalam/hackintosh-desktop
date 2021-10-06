@@ -6,22 +6,22 @@ Compatibility is great, as the hardware closely resembles that of iMac 18,1 or 1
 
 Currently running:
 
-| Component     | Version      |
-| ------------- | ------------ |
-| macOS version | 12.0 Beta    |
-| OpenCore      | 0.7.0        |
+| Component     | Version     |
+| ------------- | ----------- |
+| macOS version | 12.0 Beta 8 |
+| OpenCore      | 0.7.0       |
 
 ## Hardware info
 
-| Component   | Model                                 |
-| ----------- | ------------------------------------- |
-| Motherboard | ASUS MAXIMUS HERO VIII                |
-| CPU         | Intel i7-7700K Kaby Lake              |
-| Memory      | 32GB 3200Mhz                          |
-| Storage     | Kingston A2000 1TB                    |
-| iGPU        | Intel HD 630                          |
-| Audio       | NuForce µDAC 2                        |
-| WLAN        | Fenvi FV-T919                         |
+| Component   | Model                    |
+| ----------- | ------------------------ |
+| Motherboard | ASUS MAXIMUS HERO VIII   |
+| CPU         | Intel i7-7700K Kaby Lake |
+| Memory      | 32GB 3200Mhz             |
+| Storage     | Kingston A2000 1TB       |
+| iGPU        | Intel HD 630             |
+| Audio       | NuForce µDAC 2           |
+| WLAN        | Fenvi FV-T919            |
 
 ## Status
 

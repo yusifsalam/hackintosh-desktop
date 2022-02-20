@@ -6,10 +6,10 @@ Compatibility is great, as the hardware closely resembles that of iMac 18,1 or 1
 
 Currently running:
 
-| Component     | Version     |
-| ------------- | ----------- |
-| macOS version | 12.0.1      |
-| OpenCore      | 0.7.4       |
+| Component     | Version |
+| ------------- | ------- |
+| macOS version | 12.3    |
+| OpenCore      | 0.7.8   |
 
 ## Hardware info
 
@@ -36,6 +36,7 @@ Currently running:
 - [x] Mac-like booting interface for multiboot
 - [x] Sleep/wake
 - [x] Native CPU power management
+- [x] Universal control
 
 ### Not tested
 
@@ -47,11 +48,11 @@ Currently running:
 | Kext          | Version | Remark                 |
 | ------------- | ------- | ---------------------- |
 | IntelMausi    | 1.0.7   | Fixes ethernet         |
-| Lilu          | 1.5.6   | Patch engine           |
+| Lilu          | 1.6.0   | Patch engine           |
 | NVMEFix       | 1.0.9   | Fix for NVME SSDs      |
 | USBMap        | -       | Inject only mapped USB |
-| VirtualSMC    | 1.2.7   | SMC chip emulation     |
-| WhateverGreen | 1.5.4   | Graphics               |
+| VirtualSMC    | 1.2.8   | SMC chip emulation     |
+| WhateverGreen | 1.5.7   | Graphics               |
 
 ## ACPI patches
 
